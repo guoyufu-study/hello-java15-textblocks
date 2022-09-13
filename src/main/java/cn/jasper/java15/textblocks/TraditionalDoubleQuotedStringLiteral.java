@@ -1,5 +1,8 @@
 package cn.jasper.java15.textblocks;
 
+/**
+ * 传统双引号字符串字面值
+ */
 public class TraditionalDoubleQuotedStringLiteral {
 
 

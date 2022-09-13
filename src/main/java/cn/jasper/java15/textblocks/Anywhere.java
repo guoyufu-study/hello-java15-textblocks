@@ -1,17 +1,19 @@
 package cn.jasper.java15.textblocks;
 
-// Text blocks can be used anywhere a string literal can be used.
+/**
+ * 文本块可以在任何可以使用字符串字面值的地方使用。
+ */
 public class Anywhere {
 
     public static void main(String[] args) {
-        // text blocks may be intermixed with string literals in a string concatenation expression
+        // 文本块可以在字符串连接表达式中与字符串字面值混合
         String str = "The old";
         String tb = """
                     the new""";
         String together = str + " and " + tb + ".";
         System.out.println(together);
 
-        // Text blocks may be used as a method argument:
+        // 文本块可以用作方法参数：
         System.out.println("""
                         This is the first line
                         This is the second line
@@ -19,13 +21,13 @@ public class Anywhere {
                         """);
 
 
-        // String methods may be applied to a text block
+        // 字符串方法可以应用于文本块
         System.out.println("""
                 John Q. Smith""".substring(8).equals("Smith"));   // true
 
-        // A text block can be used in place of a string literal to improve the readability and clarity of the code.
-        // This primarily occurs when a string literal is used to represent a multi-line string.
-        // In this case there is considerable clutter from quotation marks, newline escapes, and concatenation operators
+        // 可以使用文本块代替字符串字面值，以提高代码的可读性和清晰度。
+        // 这主要发生在使用字符串字面值表示多行字符串时。
+        // 在这种情况下，引号、换行符和连接运算符会造成相当大的混乱
         // ORIGINAL
         String message_orig = "'The time has come,' the Walrus said,\n" +
                 "'To talk of many things:\n" +

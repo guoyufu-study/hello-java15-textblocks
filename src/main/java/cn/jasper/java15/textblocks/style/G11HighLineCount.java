@@ -1,6 +1,9 @@
 package cn.jasper.java15.textblocks.style;
 
-public class HighLineCount {
+/**
+ * G11. 同样，当高行数导致关闭分隔符可能垂直滚动到视图之外时，将文本块完全左对齐也是合理的。这允许读者在关闭分隔符不在视线范围内时使用左边距跟踪缩进。
+ */
+public class G11HighLineCount {
 
     public static void main(String[] args) {
         // ORIGINAL

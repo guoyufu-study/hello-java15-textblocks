@@ -1,5 +1,8 @@
 package cn.jasper.java15.textblocks;
 
+/**
+ * 新转义序列
+ */
 public class EscapeSequencesNew {
 
     public static void main(String[] args) {

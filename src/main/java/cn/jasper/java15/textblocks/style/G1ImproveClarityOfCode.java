@@ -1,6 +1,11 @@
 package cn.jasper.java15.textblocks.style;
 
-public class ImproveClarityOfCode {
+/**
+ * 提高代码的清晰度
+ *
+ * <p>G1. 当文本块可以提高代码的清晰度时，尤其是多行字符串时，应该使用它。</p>
+ */
+public class G1ImproveClarityOfCode {
 
     public static void main(String[] args) {
         // ORIGINAL

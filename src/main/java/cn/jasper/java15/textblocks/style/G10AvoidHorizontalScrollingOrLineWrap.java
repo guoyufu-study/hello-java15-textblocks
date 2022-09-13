@@ -1,6 +1,10 @@
 package cn.jasper.java15.textblocks.style;
 
-public class AvoidHorizontalScrollingOrLineWrap {
+/**
+ * 避免水平滚动或换行
+ * <p>G10. 建议将宽字符串完全左对齐以避免水平滚动或换行。</p>
+ */
+public class G10AvoidHorizontalScrollingOrLineWrap {
 
     public static void main(String[] args) {
         // ORIGINAL

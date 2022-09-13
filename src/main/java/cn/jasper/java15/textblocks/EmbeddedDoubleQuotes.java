@@ -1,6 +1,9 @@
 package cn.jasper.java15.textblocks;
 
-public class EmbededDoubleQuotes {
+/**
+ * 内嵌的双引号
+ */
+public class EmbeddedDoubleQuotes {
 
     public static void main(String[] args) {
         String sa = """
